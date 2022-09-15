@@ -25,14 +25,35 @@ body {
   font-size: 8px;
 }
 
-.act-btn{
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: 600;
-    font-size: 14px;
-    padding: 4px 12px;
-    border-radius: 4px;
+.act-btn {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 4px;
 }
 
-.act-btn:hover{
-    background-color: #ebebeb !important;
+.act-btn:hover {
+  background-color: #ebebeb !important;
+}
+
+.left-nm{
+  margin-left: -6px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media (max-width: 480px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .mobi-hide{
+    display: none;
+  }
+
+  .btn-mobi-txt, .xs-txt{
+    font-size: 10px;
+  }
+
+  .s-txt{
+    font-size: 12px;
+  }
 }
