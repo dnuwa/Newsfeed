@@ -1,0 +1,38 @@
+body {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.s-txt {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.xs-txt {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.article-text {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.xsf {
+  font-size: 8px;
+}
+
+.act-btn{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.act-btn:hover{
+    background-color: #ebebeb !important;
+}

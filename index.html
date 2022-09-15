@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/cutome.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Demo wireframe</h1>
+        <div class="">
+            <div class="col-sm-12 col-lg-2"></div>
+            <div class="col-sm-12 col-lg-6 mx-auto">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary">Creat a post</button>
+                        <button class="btn btn-sm btn-outline-primary">View my network posts</button>
+                    </div>
+                    
+                    <button class="btn btn-sm btn-outline-primary">View GIN's Tutorial </button>
+                </div>
+                <div class="card mt-2">
+                    <div class="d-flex justify-content-between p-2">
+                        <div class="d-flex">
+                            <div class="">
+                                <img src="https://xsgames.co/randomusers/assets/avatars/male/46.jpg" alt="user-avata"
+                                    width="40" class="rounded-circle me-2">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="s-txt mb-0">John Doe</p>
+                                <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                <p class="xs-txt mb-0">5hrs</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn act-btn btn-sm text-secondary mx-2"> Follow</button>
+                            <i class="fa fa-ellipsis-h fa-lg"></i>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <p class="article-text mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus architecto quod
+                            necessitatibus aut in eos eveniet, eaque ut. Labore ullam, distinctio porro placeat nisi sit
+                            eaque veniam nihil. Eligendi, praesentium!
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://assets.euromoneydigital.com/dims4/default/01fc673/2147483647/strip/true/crop/995x559+0+0/resize/840x472!/quality/90/?url=http%3A%2F%2Feuromoney-brightspot.s3.amazonaws.com%2Fa5%2F90%2F0f1167c248d59035af5b47af3fc6%2Fgaming-virtual-blue-adobestock.jpg"
+                            alt="" class="w-100">
+                    </div>
+                    <div class="d-flex justify-content-between p-2 border-bottom">
+                        <div>
+                            <p class="mb-0 xs-txt">
+                                Johnson smith, Alex Moskowtz and 74 others
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="xs-txt me-2">
+                                <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    116 comments
+                                </a>
+                            </div>
+                            <p class="xs-txt mb-0">
+                                489 shares
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between py-2 px-5">
+                        <div class="act-btn">
+                            <i class="fa fa-thumbs-up fa-lg"></i> Like
+                        </div>
+                        <div class="act-btn" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                            aria-expanded="false" aria-controls="collapseExample2">
+                            <i class="fa fa-comment fa-lg"></i> Comment
+                        </div>
+                        <div class="act-btn">
+                            <i class="fa fa-share fa-lg"></i> Share
+                        </div>
+                    </div>
+                    <div class="collapse  p-2" id="collapseExample2">
+                        <div class="d-flex">
+                            <img src="https://xsgames.co/randomusers/assets/avatars/male/48.jpg" alt="user-avata"
+                                width="40" class="rounded-circle me-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control article-text" placeholder="Add a comment..."
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text article-text" id="basic-addon2">Post</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseExample">
+                        <div class="p-2">
+                            <div class="d-flex mb-1">
+                                <div>
+                                    <img src="https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+                                        alt="user-avata" width="40" class="rounded-circle me-2">
+                                </div>
+                                <div class="article-text">
+                                    <div class="bg-light p-2 mb-1">
+                                        <div class="d-flex flex-column mb-1">
+                                            <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span></p>
+                                            <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                        </div>
+                                        <small>Some placeholder content for the collapse component. This panel is hidden
+                                            by
+                                            default
+                                            but
+                                            revealed when the user activates the relevant trigger.</small>
+
+                                    </div>
+                                    <div class="d-flex text-secondary">
+                                        <p class="me-2 xs-txt mb-0">
+                                            Like
+                                        </p>
+                                        <p class="xs-txt mb-0">
+                                            <i
+                                                class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-1">
+                                <div>
+                                    <img src="https://xsgames.co/randomusers/assets/avatars/male/50.jpg"
+                                        alt="user-avata" width="40" class="rounded-circle me-2">
+                                </div>
+                                <div class="article-text">
+                                    <div class="bg-light p-2 mb-1">
+                                        <div class="d-flex flex-column mb-1">
+                                            <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span></p>
+                                            <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                        </div>
+                                        <small>Some placeholder content for the collapse component. This panel is hidden
+                                            by
+                                            default
+                                            but
+                                            revealed when the user activates the relevant trigger.</small>
+
+                                    </div>
+                                    <div class="d-flex text-secondary">
+                                        <p class="xs-txt me-2 mb-0">
+                                            Like
+                                        </p>
+                                        <p class="xs-txt mb-0">
+                                            <i
+                                                class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- collopse demo -->
+                            <div class="collapse" id="collapseExample3">
+                                <div class="">
+                                    <div class="d-flex mb-1">
+                                        <div>
+                                            <img src="https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+                                                alt="user-avata" width="40" class="rounded-circle me-2">
+                                        </div>
+                                        <div class="article-text">
+                                            <div class="bg-light p-2 mb-1">
+                                                <div class="d-flex flex-column mb-1">
+                                                    <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span>
+                                                    </p>
+                                                    <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                                </div>
+                                                <small>Some placeholder content for the collapse component. This panel
+                                                    is hidden
+                                                    by
+                                                    default
+                                                    but
+                                                    revealed when the user activates the relevant trigger.</small>
+
+                                            </div>
+                                            <div class="d-flex text-secondary">
+                                                <p class="me-2 xs-txt mb-0">
+                                                    Like
+                                                </p>
+                                                <p class="xs-txt mb-0">
+                                                    <i
+                                                        class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex mb-1">
+                                        <div>
+                                            <img src="https://xsgames.co/randomusers/assets/avatars/male/50.jpg"
+                                                alt="user-avata" width="40" class="rounded-circle me-2">
+                                        </div>
+                                        <div class="article-text">
+                                            <div class="bg-light p-2 mb-1">
+                                                <div class="d-flex flex-column mb-1">
+                                                    <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span>
+                                                    </p>
+                                                    <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                                </div>
+                                                <small>Some placeholder content for the collapse component. This panel
+                                                    is hidden
+                                                    by
+                                                    default
+                                                    but
+                                                    revealed when the user activates the relevant trigger.</small>
+
+                                            </div>
+                                            <div class="d-flex text-secondary">
+                                                <p class="xs-txt me-2 mb-0">
+                                                    Like
+                                                </p>
+                                                <p class="xs-txt mb-0">
+                                                    <i
+                                                        class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-sm btn-light xs-txt m-2 py-1" data-bs-toggle="collapse"
+                                href="#collapseExample3" role="button" aria-expanded="false"
+                                aria-controls="collapseExample3">Load more comments</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- duplicate just for demo -->
+                <div class="card mt-2">
+                    <div class="d-flex justify-content-between p-2">
+                        <div class="d-flex">
+                            <div class="">
+                                <img src="https://xsgames.co/randomusers/assets/avatars/male/30.jpg" alt="user-avata"
+                                    width="40" class="rounded-circle me-2">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="s-txt mb-0">John Doe</p>
+                                <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                <p class="xs-txt mb-0">5hrs</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn act-btn btn-sm text-secondary mx-2"> Follow</button>
+                            <i class="fa fa-ellipsis-h fa-lg"></i>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <p class="article-text mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus architecto quod
+                            necessitatibus aut in eos eveniet, eaque ut. Labore ullam, distinctio porro placeat nisi sit
+                            eaque veniam nihil. Eligendi, praesentium!
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=965&q=80"
+                            alt="" class="w-100">
+                    </div>
+                    <div class="d-flex justify-content-between p-2 border-bottom">
+                        <div>
+                            <p class="mb-0 xs-txt">
+                                Johnson smith, Alex Moskowtz and 74 others
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="xs-txt me-2">
+                                <a class="text-decoration-none" data-bs-toggle="collapse" href="#demo-duplicate"
+                                    role="button" aria-expanded="false" aria-controls="demo-duplicate">
+                                    116 comments
+                                </a>
+                            </div>
+                            <p class="xs-txt mb-0">
+                                489 shares
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between py-2 px-5">
+                        <div class="act-btn">
+                            <i class="fa fa-thumbs-up fa-lg"></i> Like
+                        </div>
+                        <div class="act-btn" data-bs-toggle="collapse" href="#demo-duplicate2" role="button"
+                            aria-expanded="false" aria-controls="demo-duplicate2">
+                            <i class="fa fa-comment fa-lg"></i> Comment
+                        </div>
+                        <div class="act-btn">
+                            <i class="fa fa-share fa-lg"></i> Share
+                        </div>
+                    </div>
+                    <div class="collapse  p-2" id="demo-duplicate2">
+                        <div class="d-flex">
+                            <img src="https://xsgames.co/randomusers/assets/avatars/male/48.jpg" alt="user-avata"
+                                width="40" class="rounded-circle me-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control article-text" placeholder="Add a comment..."
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text article-text" id="basic-addon2">Post</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="demo-duplicate">
+                        <div class="p-2">
+                            <div class="d-flex mb-1">
+                                <div>
+                                    <img src="https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+                                        alt="user-avata" width="40" class="rounded-circle me-2">
+                                </div>
+                                <div class="article-text">
+                                    <div class="bg-light p-2 mb-1">
+                                        <div class="d-flex flex-column mb-1">
+                                            <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span></p>
+                                            <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                        </div>
+                                        <small>Some placeholder content for the collapse component. This panel is hidden
+                                            by
+                                            default
+                                            but
+                                            revealed when the user activates the relevant trigger.</small>
+
+                                    </div>
+                                    <div class="d-flex text-secondary">
+                                        <p class="me-2 xs-txt mb-0">
+                                            Like
+                                        </p>
+                                        <p class="xs-txt mb-0">
+                                            <i
+                                                class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-1">
+                                <div>
+                                    <img src="https://xsgames.co/randomusers/assets/avatars/male/50.jpg"
+                                        alt="user-avata" width="40" class="rounded-circle me-2">
+                                </div>
+                                <div class="article-text">
+                                    <div class="bg-light p-2 mb-1">
+                                        <div class="d-flex flex-column mb-1">
+                                            <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span></p>
+                                            <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                        </div>
+                                        <small>Some placeholder content for the collapse component. This panel is hidden
+                                            by
+                                            default
+                                            but
+                                            revealed when the user activates the relevant trigger.</small>
+
+                                    </div>
+                                    <div class="d-flex text-secondary">
+                                        <p class="xs-txt me-2 mb-0">
+                                            Like
+                                        </p>
+                                        <p class="xs-txt mb-0">
+                                            <i
+                                                class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- collopse demo -->
+                            <div class="collapse" id="demo-duplicate3">
+                                <div class="">
+                                    <div class="d-flex mb-1">
+                                        <div>
+                                            <img src="https://xsgames.co/randomusers/assets/avatars/male/49.jpg"
+                                                alt="user-avata" width="40" class="rounded-circle me-2">
+                                        </div>
+                                        <div class="article-text">
+                                            <div class="bg-light p-2 mb-1">
+                                                <div class="d-flex flex-column mb-1">
+                                                    <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span>
+                                                    </p>
+                                                    <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                                </div>
+                                                <small>Some placeholder content for the collapse component. This panel
+                                                    is hidden
+                                                    by
+                                                    default
+                                                    but
+                                                    revealed when the user activates the relevant trigger.</small>
+
+                                            </div>
+                                            <div class="d-flex text-secondary">
+                                                <p class="me-2 xs-txt mb-0">
+                                                    Like
+                                                </p>
+                                                <p class="xs-txt mb-0">
+                                                    <i
+                                                        class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex mb-1">
+                                        <div>
+                                            <img src="https://xsgames.co/randomusers/assets/avatars/male/50.jpg"
+                                                alt="user-avata" width="40" class="rounded-circle me-2">
+                                        </div>
+                                        <div class="article-text">
+                                            <div class="bg-light p-2 mb-1">
+                                                <div class="d-flex flex-column mb-1">
+                                                    <p class="s-txt mb-0">John Doe <span class="xs-txt">. 5hrs</span>
+                                                    </p>
+                                                    <p class="xs-txt mb-0">Full-stack JavaScript Developer - React</p>
+                                                </div>
+                                                <small>Some placeholder content for the collapse component. This panel
+                                                    is hidden
+                                                    by
+                                                    default
+                                                    but
+                                                    revealed when the user activates the relevant trigger.</small>
+
+                                            </div>
+                                            <div class="d-flex text-secondary">
+                                                <p class="xs-txt me-2 mb-0">
+                                                    Like
+                                                </p>
+                                                <p class="xs-txt mb-0">
+                                                    <i
+                                                        class="fa fa-thumbs-up xsf bg-primary p-1 rounded-circle text-light"></i>5
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-sm btn-light xs-txt m-2 py-1" data-bs-toggle="collapse"
+                                href="#demo-duplicate3" role="button" aria-expanded="false"
+                                aria-controls="demo-duplicate3">Load more comments</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-2"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
